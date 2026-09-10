@@ -1,0 +1,20 @@
+name: HellMCLogin
+version: 1.0.0
+main: br.com.hellmc.login.HellMCLoginPlugin
+api-version: '1.21'
+author: HellMC
+description: Sistema de autenticacao do HellMC
+commands:
+  register:
+    usage: /register <senha> <senha>
+  login:
+    usage: /login <senha>
+    aliases: [l]
+  logout:
+    usage: /logout
+  helllogin:
+    usage: /helllogin <reload|info|unregister|changepassword>
+    permission: hellmclogin.admin
+permissions:
+  hellmclogin.admin:
+    default: op

@@ -1,0 +1,32 @@
+settings:
+  registration-enabled: true
+  premium-auto-login: true
+  session-enabled: true
+  session-minutes: 30
+  login-timeout-seconds: 60
+  max-login-attempts: 5
+  lockout-seconds: 60
+  min-password-length: 6
+  max-password-length: 64
+security:
+  bind-session-to-ip: false
+  block-movement: true
+  block-chat: true
+  block-interactions: true
+messages:
+  prefix: "&8[&6HellMC&8] "
+  login: "&aAutenticado com sucesso."
+  need-login: "&eUse &f/login <senha>&e."
+  need-register: "&eUse &f/register <senha> <senha>&e."
+  already-auth: "&aVoce ja esta autenticado."
+  wrong-password: "&cSenha incorreta. Tentativas restantes: &f{remaining}"
+  registered: "&aConta registrada com sucesso!"
+  password-mismatch: "&cAs senhas nao coincidem."
+  password-short: "&cA senha deve ter pelo menos &f{min}&c caracteres."
+  password-long: "&cA senha pode ter no maximo &f{max}&c caracteres."
+  timeout: "&cTempo de autenticacao esgotado."
+  locked: "&cMuitas tentativas. Aguarde &f{seconds}s&c."
+  logout: "&eSessao encerrada. Use /login <senha>."
+  no-permission: "&cSem permissao."
+  usage-register: "&e/register <senha> <senha>"
+  usage-login: "&e/login <senha>"
